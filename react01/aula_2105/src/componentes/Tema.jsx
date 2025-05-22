@@ -24,7 +24,6 @@ function Tema() {
       <button onClick={toggleTheme}>
         {isDarkMode ? 'Modo Claro' : 'Modo Escuro'}
       </button>
-      <h1>{isDarkMode ? 'Modo Escuro Ativado' : 'Modo Claro Ativado'}</h1>
     </div>
   );
 }
