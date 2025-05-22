@@ -1,0 +1,35 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+h1 {
+    text-align: center;
+}
+
+/* Estilos para o modo escuro */
+body.dark {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#botao {
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Botão no modo claro */
+.botao-claro {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+/* Botão no modo escuro */
+.botao-escuro {
+  background-color: #333;
+  color: #fff;
+}
