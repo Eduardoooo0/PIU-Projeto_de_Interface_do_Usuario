@@ -1,0 +1,12 @@
+.div2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.div2 img{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,6 @@
+.div4{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: space-around;
+}
