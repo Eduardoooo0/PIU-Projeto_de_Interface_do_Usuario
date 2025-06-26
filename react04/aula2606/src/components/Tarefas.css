@@ -1,0 +1,8 @@
+.tarefas{
+    width: 150px;
+    height: 25px;
+    background-color: gainsboro;
+    color: black;
+    margin: 5px;
+    border: solid black 1px;
+}
