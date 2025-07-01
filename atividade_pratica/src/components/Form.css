@@ -1,0 +1,42 @@
+#form{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.inputs{
+    text-align: center;
+    height: 25px;
+    border: white 2px solid;
+    border-radius: 10px;
+}
+
+#desc{
+    height: 50px;
+}
+#submit{
+    width: 50%;
+    height: 50px;
+    border: white 2px solid;
+    border-radius: 10px;
+
+}
+
+.div-input{
+    display: flex;
+    flex-direction: column;
+}
+
+#tarefa{
+    height: 25px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    background-color: gainsboro;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+}
