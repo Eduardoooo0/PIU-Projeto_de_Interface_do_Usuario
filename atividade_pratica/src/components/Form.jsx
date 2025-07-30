@@ -9,7 +9,7 @@ export default function Form() {
 
     const addTarefa = () => {
         const novatarefa = {
-            id: Date.now(), // id único para ajudar no controle
+            id: Date.now(),
             title: titulo,
             desc: descricao,
             status: concluida
